@@ -1,1 +1,0 @@
-# GaleroElijah.github.io
