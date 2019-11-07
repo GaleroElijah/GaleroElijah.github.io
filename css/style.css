@@ -13,6 +13,21 @@
 	font-size: 30px;
 	color: white;
 }
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+.centered {
+ position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
 .top-left 
 {
   position: absolute;
@@ -20,11 +35,11 @@
   left: 16px;
   font-size: 25px;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -33,16 +48,40 @@
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
 }
+.topnav-right {
+float: right;
+}
+.form-group {
+  width: 35%;
+  height: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.card-header {
+   padding: 16px;
+ }
+ .content {
+  position: relative;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+ }
 .footer {
    left: 0;
    bottom: 0;
